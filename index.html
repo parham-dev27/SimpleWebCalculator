@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Stick+No+Bills:wght@600&display=swap"
+          rel="stylesheet">
+    <link rel="icon" href="./calculatorWebIcon.ico">
+
+</head>
+<body>
+<center>
+    <h1 id="title" onclick="location.reload()">Calculator</h1>
+    <hr id="linebreak"/>
+
+</center>
+<center>
+    <label>
+        <input type="text" id="res" disabled/>
+    </label>
+    <br/>
+    <button class="number-button" id="AC" title="Clear All" onclick="location.reload()">AC</button>
+    <button class="number-button" id="C" title="Clear" onclick="Clear()"><--</button>
+    <button class="number-button" id="+/-" title="Negate The Displayed Value" onclick="plusMinus()">+/-</button>
+    <button class="number-button" id="/" title="Divide" onclick="operator_bs('/')">÷</button>
+    <br/>
+    <button class="number-button" id="7" onclick="addToRes(7)">7</button>
+    <button class="number-button" id="8" onclick="addToRes(8)">8</button>
+    <button class="number-button" id="9" onclick="addToRes(9)">9</button>
+    <button class="number-button" id="x" onclick="operator_bs('*')">x</button>
+    <br/>
+    <button class="number-button" id="4" onclick="addToRes(4)">4</button>
+    <button class="number-button" id="5" onclick="addToRes(5)">5</button>
+    <button class="number-button" id="6" onclick="addToRes(6)">6</button>
+    <button class="number-button" id="-" onclick="operator_bs('-')">-</button>
+    <br/>
+    <button class="number-button" id="1" onclick="addToRes(1)">1</button>
+    <button class="number-button" id="2" onclick="addToRes(2)">2</button>
+    <button class="number-button" id="3" onclick="addToRes(3)">3</button>
+    <button class="number-button" id="+" onclick="operator_bs('+')">+</button>
+    <br/>
+    <button class="number-button" id="0" style="width: 21vw;" onclick="addToRes(0)">0</button>
+    <button class="number-button" id="dot" onclick="dot_b()">.</button>
+    <button class="number-button" id="=" onclick="equal()">=</button>
+</center>
+</body>
+<script src="./script.js"></script>
+</html>

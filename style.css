@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    background-color: #FDF6ED;
+}
+
+#title {
+    color: #264653;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 7vw;
+    margin: 1vh;
+    cursor: pointer;
+}
+
+#title:hover {
+    color: #1A2F37
+}
+
+#linebreak {
+    height: 4px;
+    border: none;
+    background-color: #2A9D8F;
+    border-radius: 5px;
+}
+
+#res {
+    background-color: #E1F4F4;
+    padding: 5px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 5vh;
+    border: 3px solid #3a0ca3;
+    border-radius: 4px;
+    outline-color: #b5179e;
+    margin: 2vh;
+    width: 80vw;
+    height: 6vh;
+    box-shadow: 3px 3px 3px #1A2F37;
+}
+
+.number-button {
+    padding: 10px 1vw 10px 1vw;
+    margin: 3px;
+    background-color: #EE8959;
+    border: 2px solid #C94718;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 5vw;
+    height: 10vw;
+    width: 10vw;
+    line-height: 0;
+    box-shadow: 3px 3px 3px #1A2F37;
+}
+
+.number-button:hover {
+    background-color: #EF8543;
+}
+
+.number-button:active {
+    background-color: #F18E49;
+}
+
+#\/ {
+    background-color: #8ACDD0;
+    border-color: #4D8DA8;
+}
+
+#\/:hover {
+    background-color: #7CC7CB;
+}
+
+#\/:active {
+    background-color: #A7D9DC;
+}
+
+#\+ {
+    background-color: #8ACDD0;
+    border-color: #4D8DA8;
+}
+
+#\+:hover {
+    background-color: #7CC7CB;
+}
+
+#\+:active {
+    background-color: #A7D9DC;
+}
+
+#x {
+    background-color: #8ACDD0;
+    border-color: #4D8DA8;
+}
+
+#x:hover {
+    background-color: #7CC7CB;
+}
+
+#x:active {
+    background-color: #A7D9DC;
+}
+
+#\- {
+    background-color: #8ACDD0;
+    border-color: #4D8DA8;
+}
+
+#\-:hover {
+    background-color: #7CC7CB;
+}
+
+#\-:active {
+    background-color: #A7D9DC;
+}
+
+#\= {
+    background-color: #8ACDD0;
+    border-color: #4D8DA8;
+}
+
+#\=:hover {
+    background-color: #7CC7CB;
+}
+
+#\=:active {
+    background-color: #A7D9DC;
+}
